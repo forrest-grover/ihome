@@ -5,7 +5,7 @@ Containerized [Claude Code](https://docs.anthropic.com/en/docs/claude-code) that
 ## Install
 
 ```bash
-git clone https://github.com/forrest321/ihome.git
+git clone https://github.com/forrest-grover/ihome.git
 cd ihome
 ./install.sh
 ```

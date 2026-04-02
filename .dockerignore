@@ -1,2 +1,7 @@
-*.jsonl
 .git
+.env
+.env.example
+.claude
+README.md
+install.sh
+*.jsonl
