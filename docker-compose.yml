@@ -1,0 +1,15 @@
+services:
+  claude:
+    build: .
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - ~/.claude:/home/node/.claude
+      - ~/.gitconfig:/home/node/.gitconfig:ro
+      - ~/workspace:/workspace
+    environment:
+      - HOME=/home/node
+    stdin_open: true
+    tty: true
+    network_mode: host
